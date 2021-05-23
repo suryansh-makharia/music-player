@@ -30,7 +30,7 @@ export default function App() {
     };
     const onAudioEnd = async () => {
       const currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-      await setCurrentSong(songs[currentIndex + 1]);
+      await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
       if(isPlaying) await audioRef.current.play();
     }
   return (
