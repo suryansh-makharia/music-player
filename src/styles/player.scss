@@ -1,0 +1,116 @@
+
+.player {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-control {
+    width: 50%;
+    display: flex;
+    p{
+        padding: 1rem;
+        font-weight: 500;
+    }
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        cursor: pointer;
+    }
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 1rem;
+        width: 1rem;
+    }
+    .slider::-moz-slider-thumb {
+        -webkit-appearance: none;
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+.play-control {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    padding: 1rem;
+    svg {
+        cursor: pointer;
+    }
+}
+input[type="range"]:focus {
+    outline: none;
+}
+.track {
+    width: 100%;
+    height: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.animate-track {
+    background: rgb(204, 204, 204);
+    width: 100%;
+    height: 100%;
+    transform: translateX(0%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;;
+}
+.volume {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    button {
+        background: none;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        font-size: 1.5rem;
+        margin-top: 0.8rem;
+    }
+    svg {
+        pointer-events: none;
+    }
+}
+.volume-input {
+    transform: rotate(-90deg);
+    -webkit-appearance: none;
+    height: 0.4rem;
+    width: 5rem;
+    border-radius: 1rem;
+    position: absolute;
+    background: rgb(58, 58, 58);
+    bottom: 150%;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.volume-input.active {
+    opacity: 1;
+    pointer-events: all;
+}
+.volume-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+     background: rgb(255, 59, 59);
+     height: 1rem;
+     width: 1rem;
+     border-radius: 50%;
+}
+@media screen and (max-width: 800px){
+    .time-control {
+        width: 90%;
+    }
+    .play-control {
+        width: 60%;
+    }
+}

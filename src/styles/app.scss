@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+h1, h2 {
+    color: rgb(53, 53, 53);
+}
+h4 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 500;
+    color: black;
+}
+.App {
+    transition: all 0.5s ease;
+}
+.library-active {
+    margin-left: 20%;
+}
+body.dark-mode {
+    background: #1d1f22;
+    height: 100vh;
+    color: #c9d1d9;
+    h1, h2, h3, h4 {
+        color: #c9d1d9;;
+    }
+        .selected {
+            background: #2f3135;
+        }
+    .library {
+        box-shadow: 2px 2px 50px #1d1f22;
+    }
+    .library-song {
+        &:hover {
+            background: #2f3031;
+        }
+    }
+    nav {
+        img {
+            // background: #30363d;
+            border-radius: 5px;
+            // color: #c9d1d9;
+            // mix-blend-mode: darken;
+            filter: brightness(0) invert(0.8);
+        }
+        .adjust-btn {
+            color: #c9d1d9;
+        }
+    }
+    .volume {
+        button {
+            color: #c9d1d9;
+        }
+    }
+    .volume-input {
+        background: #c9d1d9;
+    }
+}
+ @import './song.scss';
+ @import './player.scss';
+ @import './library.scss';
+ @import './nav.scss';
