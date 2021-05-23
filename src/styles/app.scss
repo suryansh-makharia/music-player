@@ -28,13 +28,15 @@ body.dark-mode {
     height: 100vh;
     color: #c9d1d9;
     h1, h2, h3, h4 {
-        color: #c9d1d9;;
+        color: #c9d1d9;
     }
         .selected {
             background: #2f3135;
         }
     .library {
         box-shadow: 2px 2px 50px #1d1f22;
+        color: #c9d1d9;
+        background: #1d1f22;
     }
     .library-song {
         &:hover {
