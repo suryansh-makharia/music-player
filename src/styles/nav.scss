@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 98%;
     min-height: 10vh;
     .library-btn {
         width: 2.5rem;
@@ -20,12 +20,15 @@ nav {
         height: 100%;
         pointer-events: none;
     }
-    .adjust-btn {
+    .adjust-btn, .github-btn {
         background: none;
         border: none;
         font-size: 1rem;
         cursor: pointer;
         position: absolute;
         
+    }
+    .github-link {
+        color: black
     }
 }
