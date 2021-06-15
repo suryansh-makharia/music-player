@@ -22,7 +22,7 @@ export default function Nav({ libraryStatus, setLibraryStatus, dark, setDark }) 
       <div className="adjust">
       <button className="adjust-btn" onClick={onAdjustClick}><FontAwesomeIcon icon={faAdjust} size="2x"/></button>
       </div>
-      <div className="github"><button className="github-btn"><a href="https://github.com/suryansh-makharia" className="github-link"><FontAwesomeIcon icon={faGithubAlt} size="2x"/></a></button></div>
+      <div className="github"><button className="github-btn"><a href="https://github.com/suryanshmak" className="github-link"><FontAwesomeIcon icon={faGithubAlt} size="2x"/></a></button></div>
       <div>
         <button  className="library-btn" ref={navRef} onClick={() => setLibraryStatus(!libraryStatus)}>
           <img
