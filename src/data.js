@@ -14,11 +14,11 @@ export default function chillHop() {
       active: true,
     },
     {
-      name: "I Like Me Better",
+      name: "Ballin",
       cover:
-        "https://m.media-amazon.com/images/I/818p5eUvd2L._SS500_.jpg",
-      artist: "Lauv",
-      audio: "https://mp3.filmisongs.com/I%20Like%20Me%20Better%20-%20Lauv.mp3",
+        "https://m.media-amazon.com/images/I/61um10tv4EL._AA256._SX472_SY472_BL0_QL100_.jpg",
+      artist: "Mustard & Roddy Rich",
+      audio: "https://ip-h5-nf01-sycdn.kuwo.cn/60384ea86e189d4e1e694301f0a04cc3/62473bb1/resource/n3/10/11/2555318537.mp3",
       color: ["#0059C0", "#4B76BD"],
       id: uuidv4(),
       active: false,
