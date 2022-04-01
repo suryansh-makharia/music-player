@@ -51,10 +51,10 @@ export default function chillHop() {
       active: false,
     },
     {
-      name: 'Sunflower (Spider-man: Into the Spider-Verse)',
-      cover: 'https://a10.gaanacdn.com/images/albums/66/2390766/crop_480x480_2390766.jpg',
+      name: 'No Idea - Don Toliver',
+      cover: 'https://m.media-amazon.com/images/I/71JENaMrUQL._AA256._SX472_SY472_BL0_QL100_.jpg',
       artist: 'Post Malone, Swae Lee',
-      audio: 'https://mp3.filmisongs.com/Sunflower%20Mp3%20By%20Swae%20Lee%20and%20Post%20Malone.mp3',
+      audio: 'https://sq-sycdn.kuwo.cn/e98a2b69fa17641075876eba2e045066/62473de9/resource/n1/78/25/3416472294.mp3',
       color: ['#211D40', '#3B3585'],
       id: uuidv4(),
       active: false
