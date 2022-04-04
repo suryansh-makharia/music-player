@@ -18,7 +18,7 @@ export default function chillHop() {
       cover:
         "https://m.media-amazon.com/images/I/61um10tv4EL._AA256._SX472_SY472_BL0_QL100_.jpg",
       artist: "Mustard & Roddy Rich",
-      audio: "https://ip-h5-nf01-sycdn.kuwo.cn/60384ea86e189d4e1e694301f0a04cc3/62473bb1/resource/n3/10/11/2555318537.mp3",
+      audio: "https://ip-h5-nf01-sycdn.kuwo.cn/84f526711465d1a5f2c49970460a359f/624b2bc3/resource/n3/10/11/2555318537.mp3",
       color: ["#0059C0", "#4B76BD"],
       id: uuidv4(),
       active: false,
@@ -51,10 +51,10 @@ export default function chillHop() {
       active: false,
     },
     {
-      name: 'No Idea - Don Toliver',
+      name: 'No Idea',
       cover: 'https://m.media-amazon.com/images/I/71JENaMrUQL._AA256._SX472_SY472_BL0_QL100_.jpg',
-      artist: 'Post Malone, Swae Lee',
-      audio: 'https://sq-sycdn.kuwo.cn/e98a2b69fa17641075876eba2e045066/62473de9/resource/n1/78/25/3416472294.mp3',
+      artist: 'Don Toliver',
+      audio: 'https://sq-sycdn.kuwo.cn/698ce10422a897dfe58b5e0a03763d08/624b2c3a/resource/n1/78/25/3416472294.mp3',
       color: ['#211D40', '#3B3585'],
       id: uuidv4(),
       active: false
